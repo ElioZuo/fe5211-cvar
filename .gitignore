@@ -1,0 +1,25 @@
+__pycache__/
+*.py[cod]
+*.so
+.pytest_cache/
+.ipynb_checkpoints/
+.DS_Store
+.idea/
+.vscode/
+
+cache/*
+!cache/.gitkeep
+
+output/figures/*
+!output/figures/.gitkeep
+output/figures/appendix/*
+
+output/tables/*
+!output/tables/.gitkeep
+
+output/numbers.json
+
+# Virtual envs
+venv/
+env/
+.venv/

@@ -1,0 +1,10 @@
+# Optional: only required to fit R-Vine copula in Block 4 from scratch.
+# If not installed, the project skips R-Vine fitting and uses only Gaussian
+# and Student-t. The Vine result reported in methodology.md (rejected by
+# Vuong test, p = 0.0085) was obtained with pyvinecopulib 0.6.x and is
+# documented qualitatively.
+#
+# Installation note: this is a C++ extension that requires a compiler.
+# On Windows it usually needs Visual Studio Build Tools; on macOS / Linux
+# it should install from wheels.
+pyvinecopulib>=0.6
